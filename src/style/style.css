@@ -137,18 +137,18 @@ a,h1,pre,p {
   font-family: 'Courier Prime', monospace;
   background-color: #000;
   border-right: .4em solid #00b600;
-  /* position: relative; */
+  position: relative; 
   color: #00b600;
   font-size: 1.2rem;
   overflow: hidden;
   line-height: 120%;
   white-space: nowrap;
-  /* display: flex; */
+  display: flex; 
   letter-spacing: 5px;
   padding-bottom: 8px;
   box-sizing: border-box;
-  animation: typing 11s steps(17, end), 
-            blink-cursor .8s step-end infinite,
+  animation: typing 9s steps(17, end), 
+            blink-cursor .7s step-end infinite,
             glitch 10s linear infinite;
 }
 
@@ -973,8 +973,8 @@ a,h1,pre,p {
 @media screen and (min-width : 710px) {
 
   .terminal h1{
-    display: table;
-    margin: 0 auto;
+    /* display: table; */
+    /* margin: 0 auto; */
   }
   
 }
