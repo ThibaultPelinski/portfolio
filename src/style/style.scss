@@ -12,6 +12,24 @@ body{
     color: #00b600;
 }
 
+.content {
+  @include stretch(1.5em, 1.5em, 1.5em, 1.5em);
+  color: #FbFbFb;
+  font-size: 2.5rem;
+  font-size: 6vmin;
+  white-space: pre-wrap;
+  overflow: hidden;
+}
+
+.exp {
+  padding-top: 150px;
+}
+
+
+@keyframes wobble {
+  0% { transform: skew(0.2deg); }
+  100% { transform: skew(-0.2deg); }
+}
 
 .glitch {
     color: white;
